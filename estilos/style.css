@@ -47,3 +47,20 @@ div#form{
     padding: 10px;
     display: block;
 }
+div#form h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#form p{
+    font-size: 0.8em;
+}
+span.material-symbols-outlined{
+    font-variation-settings: 
+   'FILL' 1,   /* preenchido */
+    'wght' 400, /* peso */
+    'GRAD' 0,   /* gradiente */
+    'opsz' 48;  /* tamanho óptico */
+
+    color: black;
+    
+}

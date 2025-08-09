@@ -1,8 +1,4 @@
 @charset "UTF-8";
-:root{
-    color: #49a09d; 
-    color: #5f2c82;
-}
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0;
@@ -29,7 +25,7 @@ section#login{
 
     background-color: white;
     width: 300px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     margin: auto;
     overflow: hidden;
@@ -47,6 +43,17 @@ div#form{
     padding: 10px;
     display: block;
 }
+div.campo{
+    background-color: #5f2c82;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin:5px 0;
+}
+form label{
+    display: none;
+}
 div#form h1{
     text-align: center;
     margin-bottom: 10px;
@@ -54,13 +61,50 @@ div#form h1{
 div#form p{
     font-size: 0.8em;
 }
+div#form input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div#form a{
+    position: relative;
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #49a09d;
+    color: #2d6462;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+div#form a:hover{
+    background-color: #6cd3cf;
+}
+div#form a span{
+    position:absolute;
+    margin-top: -1px;
+    margin-left: 5px;
+    font-size: 20px;
+}
+div#form input[type=submit]:hover{
+    background-color: #2d6462;
+}
 span.material-symbols-outlined{
     font-variation-settings: 
    'FILL' 1,   /* preenchido */
     'wght' 400, /* peso */
     'GRAD' 0,   /* gradiente */
     'opsz' 48;  /* tamanho óptico */
-
     color: black;
-    
 }

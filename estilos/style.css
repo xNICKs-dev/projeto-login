@@ -34,6 +34,9 @@ section#login{
     margin: auto;
     overflow: hidden;
     box-shadow: 0px 0px 10px black;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 div#img{
     background: rgba(0, 0, 0, 0.448) url('../imagens/images.jpg') no-repeat center center / cover;
@@ -44,10 +47,3 @@ div#form{
     padding: 10px;
     display: block;
 }
-div#form label{
-    padding: 10px;
-}
-div#form input{
-    margin-bottom: 10px;
-}
-

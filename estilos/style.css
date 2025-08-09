@@ -48,8 +48,13 @@ div.campo{
     display: block;
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border: 2px solid #5f2c82;
+    border-radius: 8px;
     margin:5px 0;
+    box-sizing: border-box;
+}
+div.campo > input:focus-within{
+    background-color: white;
 }
 form label{
     display: none;
@@ -85,7 +90,7 @@ div#form a{
     color: #2d6462;
     border-radius: 5px;
     text-decoration: none;
-    padding-top: 10px;
+    padding-top: 9px;
 }
 
 div#form a:hover{
@@ -93,8 +98,8 @@ div#form a:hover{
 }
 div#form a span{
     position:absolute;
-    margin-top: -1px;
-    margin-left: 5px;
+    margin-top: 1px;
+    margin-left: 2px;
     font-size: 20px;
 }
 div#form input[type=submit]:hover{
@@ -106,5 +111,23 @@ span.material-symbols-outlined{
     'wght' 400, /* peso */
     'GRAD' 0,   /* gradiente */
     'opsz' 48;  /* tamanho óptico */
-    color: black;
+
 }
+div > span{
+    color: white;
+    width: 40px;
+    padding: 5px;
+    font-size: 2em;
+    transform: translate(5px, 3px);
+}
+div.campo > input{
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    transform: translateY(-3.7px);
+    height: 100%;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+}
+
